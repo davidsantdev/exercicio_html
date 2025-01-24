@@ -1,0 +1,38 @@
+h1:hover {
+    transform:translate(10px);/* Sobe 10px */
+}
+label:hover {
+    transform:translate(10px);/* Sobe 10px */
+}
+
+body{
+    background: linear-gradient(to right, #A020F0, #0000FF); /* Gradiente do laranja para rosa */
+    height: 100vh; /* Garante que o gradiente preencha a tela inteira */
+    margin: 0; /* Remove margens para um preenchimento total */
+    color: white;
+    
+
+}
+h1{
+    color: white;
+    text-align: center;
+    
+}
+form{
+    text-align: center;
+    
+}
+button {
+    background-color: blue;
+    color: white;
+    
+}
+.botao {
+    background-color: blue;
+}
+.reset {
+    background-color: red;
+}
+
+
+

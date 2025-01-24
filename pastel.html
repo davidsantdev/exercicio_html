@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumos de livros</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/017/222/245/original/3d-stack-of-books-3d-rendering-illustration-free-png.png" type="image/png">
+    <style> /* sexta */
+        body {
+            background-color: #84b6f4;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        * {
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        }
+        header {
+            background-color: #f4fab4;
+            margin: 0;
+            padding: 1%;
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: top 0.3s;
+        }
+        .articles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 0px;
+            padding-top: 250px; /* Adiciona espaço no topo para o cabeçalho fixo */
+        }
+        .article {
+            background-color: #331a38;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+            margin:0
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .grow {
+    transform: scale(1.1); /* Aumenta o tamanho da div */
+    transition: transform 0.3s ease; /* Suaviza o aumento */
+}
+
+address {
+    color: black;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <h1>Resumos de livros</h1>
+    </header>
+
+    <div class="articles">
+        <div class="article">
+            <h2>A Metamorfose</h2>
+            <h4>Franz Kafka</h4>
+            <p>"A Metamorfose" de Franz Kafka é uma novela que narra a história de Gregor Samsa, um caixeiro-viajante que, certa manhã, acorda transformado em um inseto gigante. Preso em sua nova forma, Gregor enfrenta o isolamento e o distanciamento de sua família, que, inicialmente chocada, passa a vê-lo como um fardo. A história explora temas como alienação, identidade, responsabilidade familiar e a fragilidade das relações humanas diante da adversidade. É uma obra icônica do existencialismo e do absurdo, destacando o peso da pressão social e a luta por significado em um mundo indiferente.</p>
+            <img src="https://th.bing.com/th/id/R.1ed8374fbe1a2031cd8f682d7c5014fb?rik=Nw0oxujBf7Ms4A&pid=ImgRaw&r=0" alt="A Metamorfose">
+        </div>
+
+        <div class="article">
+            <h2>O Castelo</h2>
+            <h4>Franz Kafka</h4>
+            <p>"O Castelo" de Franz Kafka é um romance que segue a jornada de K., um agrimensor que chega a uma vila para assumir seu cargo, mas se depara com um sistema burocrático opressor. Ele tenta, sem sucesso, obter acesso ao Castelo, onde as autoridades estão localizadas, e é constantemente barrado por um labirinto de regras e obstáculos. A história explora temas como a alienação, a busca por poder, e a luta contra uma estrutura impessoal que parece não oferecer respostas. O livro retrata a frustração e a impotência do indivíduo diante da incompreensível maquinaria social e administrativa, evidenciando o absurdo da busca por significado em um mundo onde as autoridades permanecem distantes e inatingíveis.</p>
+            <img src="https://img.wook.pt/images/o-castelo-franz-kafka/MXwxNTMyNzg4OXwyMDc5MjI3NHwxNjE2MzcxMjAwMDAw/250x" alt="O Castelo">
+        </div>
+    
+    <div class="article">
+        <h2> O SONHO DE UM HOMEM RIDÍCULO</h2>
+        <h4>F. Dostoievski</h4>
+        <p>"O Sonho de um Homem Ridículo" de Fiódor Dostoiévski é um conto que narra a jornada de um homem desiludido, que decide acabar com sua vida, mas adormece antes de concretizar o ato. Em seu sonho, ele é transportado para um mundo utópico, onde a humanidade vive em harmonia perfeita, sem egoísmo, mentiras ou sofrimento. No entanto, sua presença neste mundo puro leva à corrupção e à decadência, resultando na perda da felicidade coletiva. Ao despertar, o protagonista experimenta uma profunda transformação, passando a dedicar-se à disseminação de amor e verdade, acreditando na possibilidade de redenção humana. É uma reflexão sobre moralidade, responsabilidade e esperança.</p>
+        <img src="https://m.media-amazon.com/images/I/51m6LK4IAhL.jpg" alt="O Castelo">
+    </div>
+    <div class="article">
+        <h2> Carta ao pai</h2>
+        <h4>Franz Kafka</h4>
+        <p>
+            "Carta ao Pai" de Franz Kafka é uma obra autobiográfica em que o autor expressa seus sentimentos e conflitos em relação ao pai, Hermann Kafka. Escrita como uma carta, mas nunca enviada, a obra revela a complexa dinâmica entre pai e filho, marcada por autoritarismo, incompreensão e medo. Kafka descreve o impacto da figura paterna em sua vida, desde a infância até a idade adulta, explorando como isso moldou sua personalidade insegura e suas dificuldades emocionais. A carta expõe temas como o peso das expectativas familiares, a busca por identidade e a luta para se libertar de uma relação opressora. É um relato íntimo e profundamente psicológico.</p>
+        <img src="https://th.bing.com/th/id/OIP.Xm-cnaB7wtQRVhv9inC_qQHaMO?rs=1&pid=ImgDetMain" alt="O Castelo">
+    </div>
+    
+</div>
+
+
+
+    <script>
+        // Variáveis para controle de rolagem
+        let lastScrollTop = 0;
+        const header = document.getElementById('header');
+
+        // Função para esconder o cabeçalho quando rolar para baixo e mostrar quando rolar para cima
+        window.addEventListener('scroll', function() {
+            let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+            if (currentScroll > lastScrollTop) {
+                // Rolando para baixo, esconder o cabeçalho
+                header.style.top = "-80px";  // Ajuste a altura de acordo com a altura do cabeçalho
+            } else {
+                // Rolando para cima, mostrar o cabeçalho
+                header.style.top = "0";
+            }
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para não permitir valores negativos
+        });
+           // Seleciona todas as divs com a classe "article"
+           const articles = document.querySelectorAll(".article");
+
+// Adiciona um evento de clique para cada div
+articles.forEach(article => {
+    article.addEventListener("click", () => {
+        article.classList.toggle("grow");
+    });
+});
+    </script>
+    <br> <br> <br> <br> <br> <br>
+
+<address>
+    rua macaco
+</address>
+
+    
+
+</body>
+</html>
